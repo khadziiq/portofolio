@@ -1,5 +1,5 @@
 {
-  "homepage": "https://khadziiq.github.io",
+  "homepage": "https://khadziiq.github.io/portofolio",
   "name": "portofolio",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "predeploy":"yarn run build",
+    "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
